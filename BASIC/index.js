@@ -46,4 +46,11 @@ const array = [
     }
 ]
 const mapped = array.map(el => el.number <= 10)
-console.log(mapped);
+// console.log(mapped);
+// const obj = {
+//     age: 12,
+//     n: 55
+// }
+// const newObj = {...obj}
+// obj.age = 45
+// console.log(newObj);
