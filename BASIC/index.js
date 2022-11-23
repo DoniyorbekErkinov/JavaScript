@@ -12,7 +12,7 @@ function helloWorld(msg) {
 */
     console.log(`I am function ${msg}`);
 }
-helloWorld('decloration')
+// helloWorld('decloration')
 // const runHelloWorld1 = helloWorld1('expression')// gives error
 
 const helloWorld1 = function(msg) {
@@ -23,10 +23,27 @@ const helloWorld1 = function(msg) {
 }
 
 const runHelloWorld1 = helloWorld1('expression')
-console.log(runHelloWorld1);
+// console.log(runHelloWorld1);
 
 // Arrow functions
 const arrowFunction = (msg) => {
     console.log(msg);
 }
-arrowFunction('I am arrow function')
+// arrowFunction('I am arrow function')
+
+const array = [
+    {
+        number: 12,
+        wieght: 500
+    },
+    {
+        number: 8,
+        wieght: 100
+    },
+    {
+        number: 2,
+        wieght: 900
+    }
+]
+const mapped = array.map(el => el.number <= 10)
+console.log(mapped);
